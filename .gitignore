@@ -29,4 +29,5 @@ classes/
 .metals/
 .bloop/
 .ammonite/
-metals.sbt
+metals.sbt 
+*.idea/*
