@@ -1,4 +1,0 @@
-@main
-def Main(): Unit = {
-}
-

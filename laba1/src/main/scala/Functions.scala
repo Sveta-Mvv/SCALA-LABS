@@ -1,4 +1,3 @@
-package exercise1
 
 /** Напишите отдельные функции, решающие поставленную задачу. 
   * 
@@ -18,19 +17,19 @@ object Functions extends App{
 
 
   // примените вашу функцию из пункта (a) здесь, не изменяя сигнатуру
-  println(testCircle(2))
+  println(testCircle(50))
   
 
 
   /* b) Напишите карированную функцию которая рассчитывает площадь прямоугольника a * b.
    */
-  def testRectangleCurried(a: Double)(b: Double): Double = a * b // передаем сначала одно значение, потом другое
-  // многоэтапное дейтствие (пока это... делаешь то)
+  def testRectangleCurried(a: Double)(b: Double): Double = a * b
+  // многоэтапное дейтствие
 
 
   // примените вашу функцию из пукта (b) здесь, не изменяя сигнатуру
-  println(testRectangleCurried(3))
-  println(testRectangleCurried(3)(4))
+  println(testRectangleCurried(2))
+  println(testRectangleCurried(2)(4))
 
   // c) Напишите не карированную функцию для расчета площади прямоугольника.
   def test2(a: Double, b: Double): Double = a * b
