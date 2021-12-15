@@ -30,4 +30,5 @@ classes/
 .bloop/
 .ammonite/
 metals.sbt 
-*.idea/*
+*/.idea/*
+.idea/*
